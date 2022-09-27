@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(to right, rgba(29, 28, 28, 0.685), rgba(172, 169, 171, 0.068)), url(../img/newzea.jpg);
+    background-size: cover;
+    height: 97.9vh;
+    overflow: hidden;
+}
+
+
+h1 {
+    text-align: linea;
+    text-align: top;
+    position: relative;
+    top: 9%;
+    color: rgb(255, 255, 255);
+    font: bold 200px sans;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 5%;
+    position: absolute;
+  }
+
+  .Footers {
+    margin-bottom: 0px;
+  }
+
+  .FooterName {
+
+    font: 25px sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 200px;
+    transition: color 0.15s ease-in-out;
+  }
+
+  .FooterName1 {
+    font: italic 15px lucida;
+  }
+
+  .a {
+      justify-content: left;
+      margin-left: -29.5%;
+  }
+
+  section {  
+    color: rgb(255, 255, 255);
+    font: bold 35px sans-serif;
+    margin-left: 3.0%;
+    margin-top: 45vh;
+  }
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  background: rgba(9, 206, 255, 0);
+  height: 8vh;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  margin-top: 1%;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-right: 35px;
+  align-items: right;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+header {
+  align-content: left;
+}
