@@ -92,3 +92,37 @@ a:hover {
 header {
   align-content: left;
 }
+
+h2 {
+     
+  top: 43.5%;
+  color: rgb(255, 255, 255);
+  font:  25px sans;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  width: 50%;
+  margin-left: 5%;
+  position: absolute;
+  font-style: italic;
+}
+
+h3 {
+   
+top: 49.5%;
+color: rgb(255, 255, 255);
+font:  22px sans;
+margin-top: 30px;
+font-family: 'Montserrat', sans-serif;
+overflow: hidden;
+width: 50%;
+margin-left: 5%;
+position: absolute;
+line-height: 36px;
+}
+
+.logo {
+  scale: 70%;
+  margin-top: 4.2%;
+  margin-left: -8.2%;
+}
