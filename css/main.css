@@ -5,6 +5,11 @@ body {
     overflow: hidden;
 }
 
+.logo {
+  scale: 70%;
+  margin-top: 4.2%;
+  margin-left: -8.2%;
+}
 
 h1 {
     text-align: linea;
@@ -50,7 +55,7 @@ h1 {
     margin-left: 5.0%;
     margin-top: 82vh;
     position: absolute;
-    margin-left: 3.5%;
+    margin-left: 2%;
   }
 
 .logo {
