@@ -6,7 +6,18 @@ body {
     text-align: center;
     align-items: center;
     justify-content: absolute;
-    
+    animation: fadeInAnimation linear 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 
@@ -140,4 +151,8 @@ line-height: 36px;
     margin-left: 8%;
     margin-right: 8%;
     
+}
+
+.home {
+  padding: 20px;
 }

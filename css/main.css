@@ -3,6 +3,8 @@ body {
     background-size: cover;
     height: 97.9vh;
     overflow: hidden;
+    opacity: 0;
+    transition: opacity 2s;
 }
 
 .logo {
@@ -17,7 +19,7 @@ h1 {
     position: relative;
     top: 9%;
     color: rgb(255, 255, 255);
-    font: bold 200px sans;
+    font: bold 250px sans;
     margin-bottom: 10px;
     font-family: 'Bebas Neue', cursive;
     overflow: hidden;
@@ -80,6 +82,7 @@ nav {
   list-style: none;
   color: rgb(255, 255, 255);
   margin-top: 1%;
+  
 }
 
 .nav-list li {
@@ -91,6 +94,7 @@ nav {
 a {
   text-decoration: none;
   color: #fff;
+  
 }
 
 a:hover {
@@ -101,3 +105,6 @@ header {
   align-content: left;
 }
 
+.home {
+  padding: 20px;
+}
