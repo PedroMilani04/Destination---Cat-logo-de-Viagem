@@ -16,10 +16,9 @@ body {
 h1 {
     text-align: linea;
     text-align: top;
-    position: relative;
     top: 9%;
     color: rgb(255, 255, 255);
-    font: bold 250px sans;
+    font: bold 240px sans;
     margin-bottom: 10px;
     font-family: 'Bebas Neue', cursive;
     overflow: hidden;
@@ -107,4 +106,126 @@ header {
 
 .home {
   padding: 20px;
+}
+
+@media(max-width: 1840px) {
+  h1 {
+    overflow-wrap: break-word;
+    line-height:200px;
+  }
+}
+
+@media(max-width: 1600px) {
+  h1 {
+    
+    font-size: 200px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 1547px) {
+  h1 {
+    
+    font-size: 170px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 1366px) {
+  h1 {
+    
+    font-size: 200px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 1024px) {
+  h1 {
+    
+    font-size: 200px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 1024px) {
+  h1 {
+    
+    font-size: 180px;
+    line-height:180px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    
+    font-size: 150px;
+    line-height:150px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 417px) {
+  h1 {
+    
+    font-size: 130px;
+    line-height:130px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+
+  body {
+    max-width: 100vw;
+    max-height: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media(max-width: 361px) {
+  h1 {
+    
+    font-size: 120px;
+    line-height:100px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+
+  body {
+    
+    overflow: hidden;
+  }
 }
