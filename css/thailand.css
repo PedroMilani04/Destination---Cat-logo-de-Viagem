@@ -37,6 +37,7 @@ h1 {
     width: 50%;
     margin-left: 5%;
     position: absolute;
+    overflow-wrap: break-word;
   }
 
   .Footers {
@@ -125,6 +126,8 @@ h2 {
     margin-left: 5%;
     position: absolute;
     font-style: italic;
+    height: auto;
+    
 }
 
 h3 {
@@ -143,7 +146,7 @@ h3 {
   margin-left: 5%;
   position: absolute;
   line-height: 36px;
-  
+  height: auto;
 }
 
 .home {

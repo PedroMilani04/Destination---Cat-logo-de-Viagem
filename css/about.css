@@ -1,15 +1,21 @@
 body {
     background-image: linear-gradient(to right, rgba(29, 28, 28, 0.685), rgba(172, 169, 171, 0.068)), url(../img/earth.jpg);
     background-size: cover;
-    height: 97.9vh;
-   
+    height:  200vh;
+    background-repeat: no-repeat;
     text-align: center;
     align-items: center;
     justify-content: absolute;
     animation: fadeInAnimation linear 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    position: relative;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
 
 @keyframes fadeInAnimation {
   0% {
@@ -155,4 +161,129 @@ line-height: 36px;
 
 .home {
   padding: 20px;
+}
+
+@media(max-width: 1840px) {
+  h1 {
+    overflow-wrap: break-word;
+    line-height:200px;
+  }
+
+  body {
+    overflow: hidden;
+  }
+}
+
+@media(max-width: 1600px) {
+  h1 {
+    
+    font-size: 200px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 1547px) {
+  h1 {
+    
+    font-size: 170px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+  
+}
+
+@media(max-width: 1366px) {
+  h1 {
+    
+    font-size: 200px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 1024px) {
+  h1 {
+    
+    font-size: 200px;
+    line-height:200px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 1024px) {
+  h1 {
+    
+    font-size: 180px;
+    line-height:180px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 516px) {
+  h1 {
+    
+    font-size: 150px;
+    line-height:150px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+}
+
+@media(max-width: 432px) {
+  h1 {
+    
+    font-size: 130px;
+    line-height:130px;
+  }
+
+  .logo {
+    margin-left: -120px;
+    margin-top: 70px;
+  }
+
+  .Footers {
+    font: bold 240px sans;
+  }
+}
+
+@media(max-width: 377px) {
+  h1 {
+    
+    font-size: 120px;
+    line-height:120px;
+  }
+
+}
+
+@media(max-width: 281px) {
+  h1 {
+    
+    font-size: 110px;
+    line-height:110px;
+  }
+
 }
