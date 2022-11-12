@@ -324,7 +324,7 @@ h3 {
   }
 }
 
-@media(max-width: 377px) {
+@media(max-width: 375px) {
   h1 {
     
     font-size: 120px;
@@ -335,6 +335,9 @@ h3 {
     margin-top: -340px;
   }
 
+  h2 {
+    top: 75%;
+  }
 }
 
 @media(max-width: 281px) {
