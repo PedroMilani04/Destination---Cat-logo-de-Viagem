@@ -342,7 +342,7 @@ h1 {
 
 @media(max-width: 432px) {
 h1 {
-  top: -4%;
+  top: 0%;
   font-size: 130px;
   line-height:130px;
 }
