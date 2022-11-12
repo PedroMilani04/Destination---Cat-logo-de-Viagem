@@ -1,113 +1,134 @@
 body {
-    background-image: linear-gradient(to right, rgba(29, 28, 28, 0.685), rgba(172, 169, 171, 0.068)), url(../img/italy.jpg);
-    background-size: cover;
-    height: 97.9vh;
-    overflow: hidden;
-    transition: opacity 2s;
-    animation: fadeInAnimation linear 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  background-image: linear-gradient(to right, rgba(29, 28, 28, 0.685), rgba(172, 169, 171, 0.068)), url(../img/italy.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  animation: fadeInAnimation linear 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+html, body {
+overflow-x: hidden;
+
 }
 
 @keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+.logo {
+scale: 70%;
+margin-top: 4.2%;
+margin-left: -8.2%;
 }
 
 
 h1 {
-    text-align: linea;
-    text-align: top;
-    position: relative;
-    top: 9%;
-    color: rgb(255, 255, 255);
-    font: bold 200px sans;
-    margin-bottom: 10px;
-    font-family: 'Bebas Neue', cursive;
-    overflow: hidden;
-    width: 50%;
-    margin-left: 5%;
-    position: absolute;
-  }
+  text-align: linea;
+  text-align: top;
+  
+  top: 9%;
+  color: rgb(255, 255, 255);
+  font: bold 200px sans;
+  margin-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
+  overflow: hidden;
+  width: 50%;
+  margin-left: 5%;
+  position: absolute;
+  overflow-wrap: break-word;
+  height: auto;
+  
+}
 
-  .Footers {
-    margin-bottom: 0px;
-  }
+.Footers {
+  margin-bottom: 0px;
+}
 
-  .FooterName {
+.FooterName {
 
-    font: 25px sans-serif;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Open Sans', sans-serif;
-    max-width: 200px;
-    transition: color 0.15s ease-in-out;
-  }
+  font: 25px sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 200px;
+  transition: color 0.15s ease-in-out;
+}
 
-  .FooterName1 {
-    font: italic 15px lucida;
-  }
+.FooterName1 {
+  font: italic 15px lucida;
+}
 
-  .a {
-      justify-content: left;
-      margin-left: -29.5%;
-  }
+.a {
+    justify-content: left;
+    margin-left: -29.5%;
+}
 
-  section {  
-    color: rgb(255, 255, 255);
-    font: bold 35px sans-serif;
-    margin-left: 3.0%;
-    margin-top: 45vh;
-  }
+section {  
+  color: rgb(255, 255, 255);
+  font: bold 35px sans-serif;
+  margin-left: 3.0%;
+  margin-top: 45vh;
+  
+}
 
 .logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+font-size: 24px;
+text-transform: uppercase;
+letter-spacing: 4px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 3.5%;
-  margin-right: 3.5%;
-  align-items: center;
-  font-family: 'Bebas Neue', cursive;
-  background: rgba(9, 206, 255, 0);
-  height: 8vh;
+display: flex;
+justify-content: space-between;
+margin-left: 3.5%;
+margin-right: 3.5%;
+align-items: center;
+font-family: 'Bebas Neue', cursive;
+background: rgba(9, 206, 255, 0);
+height: 8vh;
 }
 
 .nav-list {
-  display: flex;
-  list-style: none;
-  color: rgb(255, 255, 255);
-  margin-top: 1%;
+display: flex;
+list-style: none;
+color: rgb(255, 255, 255);
+margin-top: 1%;
 }
 
 .nav-list li {
-  letter-spacing: 3px;
-  margin-right: 35px;
-  align-items: right;
+letter-spacing: 3px;
+margin-right: 35px;
+align-items: right;
 }
 
 a {
-  text-decoration: none;
-  color: #fff;
+text-decoration: none;
+color: #fff;
 }
 
 a:hover {
-  opacity: 0.5;
+opacity: 0.5;
 }
 
 header {
-  align-content: left;
+align-content: left;
+}
+
+.content {
+color: black;
+display: flex;
 }
 
 h2 {
-    
+  
   top: 43.5%;
   color: rgb(255, 255, 255);
   font:  25px sans;
@@ -119,16 +140,19 @@ h2 {
   margin-left: 5%;
   position: absolute;
   font-style: italic;
+  height: auto;
+  
 }
 
 h3 {
+
 font-style: oblique;
 border-radius: 20px;
 top: 49.5%;
-color: rgb(255, 255, 255);
+color: white;
 
 font:  22px sans;
-margin-top: 30px;
+margin-top: 2px;
 font-family: 'Montserrat', sans-serif;
 font-weight: 300;
 overflow: hidden;
@@ -136,15 +160,164 @@ width: 50%;
 margin-left: 5%;
 position: absolute;
 line-height: 36px;
-
-}
-
-.logo {
-  scale: 70%;
-  margin-top: 4.2%;
-  margin-left: -8.2%;
+height: auto;
 }
 
 .home {
-  padding: 20px;
+padding: 20px;
 }
+
+@media(max-width: 1840px) {
+h1 {
+  overflow-wrap: break-word;
+  line-height:200px;
+}
+
+body {
+  overflow: hidden;
+}
+}
+
+@media(max-width: 1600px) {
+
+
+.logo {
+  margin-left: -120px;
+  margin-top: 70px;
+}
+
+
+
+
+}
+
+@media(max-width: 1702px) {
+ 
+  
+  
+  }
+
+  
+
+@media(max-width: 1547px) {
+
+
+.logo {
+  margin-left: -120px;
+  margin-top: 70px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+
+}
+
+@media(max-width: 1366px) {
+
+
+.logo {
+  margin-left: -120px;
+  margin-top: 70px;
+}
+
+
+}
+
+@media(max-width: 1400px) {
+h3 {
+  font-size: 18px;
+}
+}
+
+@media(max-width: 1260px) {
+h3 {
+  font-size: 16px;
+}
+}
+
+@media(max-width: 1125px) {
+h3 {
+  font-size: 14px;
+}
+}
+
+@media(max-width: 1024px) {
+
+
+.logo {
+  margin-left: -120px;
+  margin-top: 70px;
+}
+
+
+
+h3 {
+  margin-left: 55%;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: -298px;
+  max-width: 40vw;
+  margin-left: 60%;
+  max-height: 1000vh;
+}
+
+}
+
+@media(max-width: 680px) {
+h3 {
+  font-size: 15px;
+  line-height: 20px;
+}
+}
+
+@media(max-width: 516px) {
+h1 {
+  
+  font-size: 170px;
+  line-height:150px;
+}
+
+.logo {
+  margin-left: -120px;
+  margin-top: 70px;
+}
+
+
+}
+
+@media(max-width: 640px) {
+  h1 {
+    font-size: 180px;
+  }
+}
+
+
+
+@media(max-width: 580px) {
+  h1 {
+    font-size: 160px;
+  }
+
+  h2 {
+    top: 40%;
+  }
+  }
+  
+
+  @media(max-width: 580px) {
+    h1 {
+      font-size: 160px;
+    }
+  
+    h2 {
+      top: 50%;
+    }
+    }
+
+    @media(max-width: 509px) {
+      h3 {
+        margin-top: -320px;
+      }
+      }
