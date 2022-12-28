@@ -84,6 +84,8 @@
     padding: 13px 10px 13px 10px;
     text-decoration: none;
     color: #ffffff;
+    margin-left: 1vw;
+  margin-right: 1vw;
   }
   
   .nav > .nav-links > a:hover {
