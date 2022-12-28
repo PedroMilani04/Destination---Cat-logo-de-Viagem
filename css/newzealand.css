@@ -129,7 +129,7 @@ display: flex;
 
 h2 {
   
-  top: 43.5%;
+  top: 45%;
   color: rgb(255, 255, 255);
   font:  25px sans;
   margin-top: 10px;
@@ -208,11 +208,11 @@ h1 {
 
   @media(max-width: 1440px) {
     h2 {
-      top: 50%;
+      top: 60%;
     }
 
     h3 {
-      top: 57%;
+      top: 67%;
     }
     
     }
@@ -282,7 +282,7 @@ h1 {
 }
 
 h2 {
-  top: 50%;
+  top: 65%;
 }
 
 h3 {
@@ -297,11 +297,9 @@ h3 {
 
 }
 
-@media(max-width: 680px) {
-h3 {
-  font-size: 15px;
-  line-height: 20px;
-}
+@media(max-width: 768px) {
+
+
 }
 
 @media(max-width: 516px) {
@@ -321,7 +319,7 @@ h1 {
 
 @media(max-width: 932px) {
   h2 {
-    top: 64%;
+    top: 80%;
   }
   
   }
@@ -357,7 +355,7 @@ h1 {
 }
 
 h2 {
-  top: 56%;
+  top: 60%;
 }
 }
 
@@ -384,18 +382,16 @@ h3 {
   @media(max-width: 339px) {
     h1 {
       font-size: 110px;
+      width: 65%;
+    }
+
+    h2 {
+      top: 55%;
     }
     }
     
       
-@media(max-width: 281px) {
-h1 {
-  
-  font-size: 110px;
-  line-height:110px;
-}
 
-}
 
 .nav {
   height: 50px;
@@ -464,7 +460,6 @@ h1 {
     border-top: 2px solid #eee;
   }
   .nav > .nav-links {
-    z-index: 999px;
     width: 40%;
     background-color: rgba(247, 247, 247, 0.747);
     height: 0px;

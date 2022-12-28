@@ -100,6 +100,7 @@
       position: absolute;
       right: 0px;
       top: 0px;
+      z-index: 99;
     }
     .nav > .nav-btn > label {
       display: inline-block;
@@ -120,7 +121,7 @@
       
       display: block;
       width: 40%;
-      background-color: rgba(247, 247, 247, 0.747);
+      background-color: rgba(247, 247, 247, 1);
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -134,10 +135,13 @@
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
       height: 0px;
+      
     }
     .nav > #nav-check:checked ~ .nav-links {
       height: calc(100vh - 50px);
       overflow-y: auto;
+      position: sticky;
+      z-index: 2;
     }
   
     .logo {
