@@ -260,14 +260,14 @@ h3 {
   }
 
   h2 {
-    top: 55%;
+    top: 45%;
   }
 
   h3 {
     margin-left: 55%;
     font-size: 15px;
     line-height: 30px;
-    margin-top: -320px;
+    margin-top: -200px;
     max-width: 40vw;
     margin-left: 60%;
     max-height: 1000vh;
@@ -322,6 +322,10 @@ h3 {
   h2 {
     top: 62%;
   }
+
+  h3 {
+    margin-top: -38vh;
+    font-size: .8rem;
 }
 
 @media(max-width: 375px) {
@@ -332,11 +336,11 @@ h3 {
   }
 
   h3 {
-    margin-top: -340px;
+    margin-top: -38vh;
   }
 
   h2 {
-    top: 75%;
+    top: 55%;
   }
 }
 
@@ -445,4 +449,5 @@ h3 {
 
 
 
+}
 }

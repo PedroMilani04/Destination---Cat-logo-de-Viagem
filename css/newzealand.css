@@ -318,8 +318,11 @@ h1 {
 }
 
 @media(max-width: 932px) {
+  h1 {
+    top: 0%;
+  }
   h2 {
-    top: 80%;
+    top: 75%;
   }
   
   }
@@ -334,6 +337,11 @@ h1 {
 
   h2 {
     top: 55%;
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    top: 62%;
   }
   }
   
@@ -387,6 +395,10 @@ h3 {
 
     h2 {
       top: 55%;
+      font-size: 1.2rem;
+    }
+    h3 {
+      font-size: .7rem;
     }
     }
     
