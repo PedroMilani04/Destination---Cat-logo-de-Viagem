@@ -15,9 +15,8 @@ html, body {
 }
 
 .logo {
-  scale: 70%;
-  margin-top: 4.2%;
-  margin-left: -8.2%;
+  margin-left: -70px;
+  width: 1512px;
 }
 
 h1 {
@@ -66,11 +65,7 @@ h1 {
     margin-left: 2%;
   }
 
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
+
 
 nav {
   display: flex;
@@ -97,11 +92,7 @@ nav {
   align-items: right;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-  
-}
+
 
 a:hover {
   opacity: 0.5;
@@ -115,69 +106,22 @@ header {
   padding: 20px;
 }
 
-@media(max-width: 1840px) {
+@media(max-width: 1440px) {
   h1 {
     overflow-wrap: break-word;
     line-height:200px;
+    font-size: 180px
   }
 
   body {
     overflow: hidden;
   }
-}
 
-@media(max-width: 1600px) {
-  h1 {
-    
-    font-size: 200px;
-    line-height:200px;
-  }
-
-  .logo {
-    margin-left: -120px;
-    margin-top: 70px;
-  }
-}
-
-@media(max-width: 1547px) {
-  h1 {
-    
-    font-size: 170px;
-    line-height:200px;
-  }
-
-  .logo {
-    margin-left: -120px;
-    margin-top: 70px;
-  }
   
 }
 
-@media(max-width: 1366px) {
-  h1 {
-    
-    font-size: 200px;
-    line-height:200px;
-  }
 
-  .logo {
-    margin-left: -120px;
-    margin-top: 70px;
-  }
-}
 
-@media(max-width: 1024px) {
-  h1 {
-    
-    font-size: 200px;
-    line-height:200px;
-  }
-
-  .logo {
-    margin-left: -120px;
-    margin-top: 70px;
-  }
-}
 
 @media(max-width: 1024px) {
   h1 {
@@ -186,22 +130,14 @@ header {
     line-height:180px;
   }
 
-  .logo {
-    margin-left: -120px;
-    margin-top: 70px;
-  }
+  
 }
 
-@media(max-width: 516px) {
+@media(max-width: 768px) {
   h1 {
     
-    font-size: 150px;
-    line-height:150px;
-  }
-
-  .logo {
-    margin-left: -120px;
-    margin-top: 70px;
+    font-size: 160px;
+    line-height:180px;
   }
 }
 
@@ -212,30 +148,129 @@ header {
     line-height:130px;
   }
 
-  .logo {
-    margin-left: -120px;
-    margin-top: 70px;
-  }
+  
 
   .Footers {
     font: bold 240px sans;
   }
 }
 
-@media(max-width: 377px) {
+@media(max-width: 375px) {
   h1 {
     
     font-size: 120px;
-    line-height:120px;
+    width: 50%;
   }
 
 }
 
-@media(max-width: 281px) {
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media(max-width: 320px) {
   h1 {
-    
-    font-size: 110px;
-    line-height:110px;
+    margin-top: 0vh;
   }
+}
+
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d00;
+  
+  font-family: 'Bebas Neue', cursive;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    
+    display: block;
+    width: 40%;
+    background-color: rgba(247, 247, 247, 0.747);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    color: #2e2e2e;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .logo {
+    width: 2090px;
+  }
+
+
 
 }
